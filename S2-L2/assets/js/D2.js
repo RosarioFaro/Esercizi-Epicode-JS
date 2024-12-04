@@ -19,7 +19,7 @@ if (num1 > num2){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-if (num1 != 5){
+if (num1 !== 5){
   console.log ("not equal")
 };
 
@@ -29,7 +29,7 @@ if (num1 != 5){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-if (num1%5==0){
+if (num1%5===0){
   console.log ("divisibile per 5")
 };
 
@@ -40,8 +40,8 @@ if (num1%5==0){
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let num3 = 8
-if (num3 == 8 || num2 == 8 || num3 + num2 || num3 - num2){
-  console.log ("Numero 8")
+if (num3 === 8 || num2 === 8 || num3 + num2 || num3 - num2){
+  console.log ("Uguale a 8")
 };
 
 /* ESERCIZIO 5
