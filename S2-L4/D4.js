@@ -19,11 +19,10 @@ console.log(areaRett)
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 function crazySum (a,b) {
-    if (a!==b){
+    if (a===b){
+        return (a+b)*3;
+    } 
         return a + b;
-    } else if (a===b) {
-       return (a+b)*3
-    }
 }
 
 let risultato = crazySum(5,5)
@@ -171,7 +170,7 @@ const shoppingCart = [{
 },
 {
     price:12,
-    nome:"Libri",
+    nome:"Libro",
     id:134,
     quantity:3
 },
