@@ -26,7 +26,11 @@ function dataInputList() {
         li.innerHTML = `${ele.testo} <span><button onclick="deleteData(${i})"><i class="fas fa-times-circle"></i></button></span>`;
         
         li.addEventListener('click', () => {
-            li.style.textDecoration = li.style.textDecoration === 'line-through' ? 'none' : 'line-through';
+            if (li.style.textDecoration === 'line-through') {
+                li.style.textDecoration = 'none';
+            } else {
+                li.style.textDecoration = 'line-through';
+            }
         });
 
         listaUn.appendChild(li);
