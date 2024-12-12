@@ -15,15 +15,13 @@ creaCelle ()
 let bottoneEstrai = document.querySelector('#bottone')
 
 function buttonRandom (){
-    let numero = Math.floor(Math.random()*76)+1;
-    console.log(numero)
+    let numero;
+    do {
+        numero = Math.floor(Math.random() * 76) + 1
+    } while (numbers.includes(numero))
+    numbers.push(numero)
     let celleTombola = document.querySelectorAll('.celle')
     celleTombola[numero - 1].classList.add('estratto')
-    let numeroCasuale;
-    do {
-        numeroCasuale = Math.floor(Math.random() * 76) + 1
-    } while (numbers.includes(numeroCasuale))
-    numbers.push(numeroCasuale)
 }
 
 let numbers = []
