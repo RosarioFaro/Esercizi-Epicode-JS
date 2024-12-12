@@ -4,6 +4,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: gainsboro;
 }
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
 #caselle {
     display: grid;
     grid-template-columns: repeat(19, 1fr);
