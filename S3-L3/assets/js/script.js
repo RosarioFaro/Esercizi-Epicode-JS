@@ -8,12 +8,8 @@ function aggData() {
     };
 
     data.push(obj);
-    resetForm(dataInput);
+    
     dataInputList();
-}
-
-function resetForm(dataInput) {
-    dataInput.value = '';
 }
 
 function dataInputList() {
